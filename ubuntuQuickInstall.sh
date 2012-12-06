@@ -20,4 +20,6 @@ fi
 sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/g" ~/.bashrc
 source ~/.bashrc
 echo -e "\n\n# Added by ubuntuQuickInstall\n${ip} ${fqdn} ${hostname}" | sudo tee -a /etc/hosts
+echo -e "${hostname}" | sudo tee /etc/hostname
+sudo service hostname restart
 
