@@ -22,7 +22,7 @@ fi
 ## Continue with inputs
 read -p "Enter IP: " ip
 read -p "Enter username: " username
-read -s  -p"Enter password: " password
+read -s -p "Enter password: " password
 echo -e
 read -p "Enter full name: " fullname
 echo -e "\n ** Brooksifying ** \n"
