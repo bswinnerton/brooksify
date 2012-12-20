@@ -6,14 +6,8 @@ echo "############# ~Brooksify~ #############"
 echo "#######################################"
 echo -e
 
-## Get Inputs
+## Get inputs
 read -p "Enter FQDN: " fqdn
-read -p "Enter IP: " ip
-read -p "Enter username: " username
-read -s  -p"Enter password: " password
-echo -e
-read -p "Enter full name: " fullname
-echo -e "\n ** Brooksifying ** \n"
 
 ## Check for invalid FQDN, format to break up into variables
 regex='([a-z0-9]+)[\.]([a-z0-9]+)*\.([a-z]+)'
@@ -24,6 +18,14 @@ else
     echo "Incorrect FQDN"
     exit
 fi
+
+## Continue with inputs
+read -p "Enter IP: " ip
+read -p "Enter username: " username
+read -s  -p"Enter password: " password
+echo -e
+read -p "Enter full name: " fullname
+echo -e "\n ** Brooksifying ** \n"
 
 ## Customize shell
 sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/g" ~/.bashrc
