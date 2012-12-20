@@ -20,7 +20,7 @@ read -p "Enter username: " username
 read -s  -p"Enter password: " password
 echo -e
 read -p "Enter full name: " fullname
-echo  "\n ** Brooksifying ** \n"
+echo -e "\n ** Brooksifying ** \n"
 
 ## Check for invalid FQDN, format to break up into variables
 regex='([a-z0-9]+)[\.]([a-z0-9]+)*\.([a-z]+)'
