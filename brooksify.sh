@@ -46,8 +46,8 @@ else
     encrypted_password=$(perl -e 'print crypt($ARGV[0], "password")' $password)
 
     ## Create new user
-    useradd -m --shell /bin/bash -p $encrypted_password $username
-    usermod -c "$fullname" $username
+    sudo useradd -m --shell /bin/bash -p $encrypted_password $username
+    sudo usermod -c "$fullname" $username
     if [ $? -eq 0 ] ; then
         echo "User $username has been added to system"
     else
