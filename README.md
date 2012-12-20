@@ -10,6 +10,7 @@ What this script does:
   3. Adds new user
   4. Uses pretty colors
   5. Installs updates
+  6. Reboots
 
 Execute:
 
