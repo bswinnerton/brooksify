@@ -6,13 +6,6 @@ echo "############# ~Brooksify~ #############"
 echo "#######################################"
 echo -e
 
-## Check if running as root
-script_runner=$(whoami)
-if [ $script_runner != root ] ; then
-    echo -e "This script must be run as root"
-    exit
-fi
-
 ## Get Inputs
 read -p "Enter FQDN: " fqdn
 read -p "Enter IP: " ip
