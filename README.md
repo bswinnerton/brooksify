@@ -15,3 +15,10 @@ What this script does:
 Execute:
 
 `wget --no-check-certificate https://raw.github.com/bswinnerton/brooksify/master/brooksify.sh && bash brooksify.sh`
+
+Typical Inputs:
+
+`Enter IP: ` = `127.0.0.1`
+`Enter username: ` = `foo`
+`Enter password: ` = `bar`
+`Enter full name: ` = `Local Administrator`
