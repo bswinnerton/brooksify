@@ -18,7 +18,7 @@ Execute:
 
 Typical Inputs:
 
-`Enter IP: ` = `127.0.0.1`
-`Enter username: ` = `foo`
-`Enter password: ` = `bar`
-`Enter full name: ` = `Local Administrator`
+* `Enter IP: ` = `127.0.0.1`
+* `Enter username: ` = `foo`
+* `Enter password: ` = `bar`
+* `Enter full name: ` = `Local Administrator`
